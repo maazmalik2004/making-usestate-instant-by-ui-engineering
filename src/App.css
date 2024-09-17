@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-color: rgb(157, 240, 226); /* Light turquoise background */
+  overflow: hidden;
+  height: 100vh;
+}
+
+.App div {
+  background-color: rgb(0, 221, 184); /* Turquoise box background */
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 3vh;
+  margin: 0px 10vw 2vh 10vw;
+  box-shadow: 2px 2px 5px rgba(0, 100, 80, 0.5); /* Softer shadow for a better effect */
+  min-width: fit-content;
+}
+
+.App div h1 {
+  color: white; /* White text inside the turquoise box */
+}
+
+h1 {
+  font-size: 3em;
+  color: rgb(0, 100, 80); /* Darker turquoise color for headings */
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  background-color: rgb(0, 150, 100); /* A darker turquoise for the button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(0, 180, 130); /* Slightly lighter turquoise on hover */
+}
