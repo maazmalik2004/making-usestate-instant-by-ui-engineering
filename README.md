@@ -1,5 +1,10 @@
 # React State Management Comparison
 
+![image](https://github.com/user-attachments/assets/b8d6e801-8052-4cd4-9c79-55f2811a3980)
+inspired by 
+[Making setState() instant](https://youtu.be/H9IIwbUhEJA?si=SdUd_HrSyJH-LT38)
+
+
 This project demonstrates the difference between React's built-in `useState` hook and a custom hook, `useImmediateState`, that attempts to manage state updates more immediately. 
 
 ## Overview
